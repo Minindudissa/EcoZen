@@ -11,7 +11,7 @@
 
 <body>
     <div class=" container-fluid">
-        <div class=" row main_image_row">
+        <div class=" row main_image_">
             <div class=" d-flex flex-column justify-content-center align-items-center align-items-lg-start col-12 main_image">
                 <h1 class="text-white ms-4 fw-bold">Lorem ipsum dolor sit amet</h1>
                 <p class="text-white ms-4 fs-5">adipisicing elit. Qui debitis aspernatur veniam! Cum esse ea nemo <br> possimus provident ab excepturi voluptas molestias assumendas,<br> deserunt corrupti delectus at nulla sit asperiores nisi quidem est <br> autem quidem. Aperiam ad corrupti esse possimus. <br> Culpa, adipisci! Dicta optio dolores fugit odio tempora ab </p>
