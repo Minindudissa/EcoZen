@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+.main_image {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)),
+    url("Resources/Site_Images/vegetables1.jpeg");
+  width: 100%;
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+.image1 {
+  background-image: url("Resources/Site_Images/image_down.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image2 {
+  background-image: url("Resources/Site_Images/surendran-mp-QIW4IkjxP-w-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image3 {
+  background-image: url("Resources/Site_Images/pexels-charlotte-may-5946720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.vector {
+  background-image: linear-gradient(
+      rgba(255, 140, 0, 0.5),
+      rgba(255, 208, 0, 0.5)
+    ),
+    url("Resources/Site_Images/1.webp");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
+}
+
+.images {
+  height: 65vh;
+  position: absolute;
+  margin-top: 90vh;
+}
+.main_image_row {
+  height: 165vh;
+}
+.category1 {
+  background-image: url("Resources/Site_Images/8.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 250px;
+  transition-duration: 0.5s;
+  box-shadow: rgb(199, 199, 199) 0px 0px 6px 6px;
+}
+.category2 {
+  background-image: url("Resources/Site_Images/jo-sonn-zeFy-oCUhV8-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 250px;
+  transition-duration: 0.5s;
+  box-shadow: rgb(199, 199, 199) 0px 0px 6px 6px;
+}
+.category3 {
+  background-image: url("Resources/Site_Images/6.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 250px;
+  transition-duration: 0.5s;
+  box-shadow: rgb(199, 199, 199) 0px 0px 6px 6px;
+}
+.category_1 {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.category1:hover,
+.category2:hover,
+.category3:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+
+.process_image1 {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)),
+    url("Resources/Site_Images/vegetables1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.process_image2 {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)),
+    url("Resources/Site_Images/vegetables1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.process_image3 {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)),
+    url("Resources/Site_Images/vegetables1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .images {
+    height: 40vh;
+  }
+  .main_image_row {
+    height: 135vh;
+  }
+}
